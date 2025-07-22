@@ -26,19 +26,17 @@ const Hero = () => {
           </Badge>
 
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-white leading-tight animate-slide-up">
-            From Vision to{" "}
+          <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6 text-white leading-tight animate-slide-up">
+            Elevating Properties,{" "}
             <span className="bg-gradient-to-r from-primary-glow to-secondary bg-clip-text text-transparent">
-              Value
+              Transforming Lives
             </span>
-            <br />
-            We Lead the Way
           </h1>
 
           {/* Subtitle */}
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl mx-auto leading-relaxed animate-fade-in" style={{ animationDelay: "0.3s" }}>
-            Sarthi Reality – your guide for Document Assistance through every stage of real estate, 
-            from investment and compliance to planning, marketing, and project execution.
+            Maharashtra's Premier Real Estate Advisory - Delivering Excellence in Land Management, 
+            Development Rights, and Expert Document Assistance.
           </p>
 
           {/* CTA Buttons */}
@@ -63,17 +61,17 @@ const Hero = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: "0.9s" }}>
             <div className="text-center">
               <div className="flex items-center justify-center mb-2">
-                <TrendingUp className="h-8 w-8 text-secondary mr-2" />
+                <TrendingUp className="h-8 w-8 text-primary-glow mr-2" />
                 <span className="text-4xl font-bold text-white">85%</span>
               </div>
-              <p className="text-gray-300">Cost Reduction</p>
+              <p className="text-gray-300">Faster Approvals</p>
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center mb-2">
                 <Shield className="h-8 w-8 text-primary-glow mr-2" />
                 <span className="text-4xl font-bold text-white">100%</span>
               </div>
-              <p className="text-gray-300">Compliance Assured</p>
+              <p className="text-gray-300">UDCPR Compliant</p>
             </div>
             <div className="text-center">
               <div className="flex items-center justify-center mb-2">

@@ -10,26 +10,26 @@
     --background: 0 0% 100%;
     --foreground: 224 12% 15%;
     
-    /* Premium real estate brand colors */
-    --primary: 220 85% 57%;  /* Sophisticated blue */
-    --primary-glow: 220 90% 65%;
-    --primary-dark: 220 85% 45%;
+    /* Premium real estate brand colors - Elegant Gold & Deep Navy */
+    --primary: 43 96% 56%;   /* Luxurious gold */
+    --primary-glow: 43 100% 65%;
+    --primary-dark: 43 85% 45%;
     
     /* Accent colors */
-    --secondary: 39 96% 85%;  /* Warm gold accent */
-    --accent: 39 85% 65%;
-    --muted: 220 15% 96%;
+    --secondary: 222 47% 11%; /* Deep navy/charcoal */
+    --accent: 43 74% 49%;     /* Rich amber */
+    --muted: 43 30% 96%;
     
-    /* Real estate luxury gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(220, 85%, 57%), hsl(220, 90%, 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(224, 12%, 15%) 0%, hsl(220, 20%, 25%) 50%, hsl(220, 85%, 57%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(220, 15%, 98%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(39, 96%, 85%), hsl(39, 85%, 65%));
+    /* Premium luxury gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(43, 96%, 56%), hsl(43, 100%, 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(222, 47%, 11%) 0%, hsl(220, 20%, 15%) 50%, hsl(43, 96%, 56%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(43, 15%, 98%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(43, 96%, 56%), hsl(43, 85%, 45%));
     
     /* Premium shadows */
-    --shadow-luxury: 0 25px 50px -12px hsl(220 85% 57% / 0.25);
-    --shadow-card: 0 10px 30px -5px hsl(220 85% 57% / 0.1);
-    --shadow-glow: 0 0 40px hsl(220 90% 65% / 0.3);
+    --shadow-luxury: 0 25px 50px -12px hsl(43 96% 56% / 0.25);
+    --shadow-card: 0 10px 30px -5px hsl(43 96% 56% / 0.1);
+    --shadow-glow: 0 0 40px hsl(43 100% 65% / 0.3);
     
     /* Smooth transitions */
     --transition-luxury: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -82,13 +82,13 @@
     --foreground: 0 0% 95%;
     
     /* Enhanced primary for dark mode */
-    --primary: 220 90% 65%;
-    --primary-glow: 220 95% 75%;
-    --primary-dark: 220 85% 50%;
+    --primary: 43 100% 65%;
+    --primary-glow: 43 100% 75%;
+    --primary-dark: 43 85% 50%;
     
     /* Dark theme gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(224, 12%, 8%) 0%, hsl(220, 20%, 15%) 50%, hsl(220, 85%, 57%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(224, 12%, 10%) 0%, hsl(220, 15%, 12%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(224, 12%, 8%) 0%, hsl(222, 47%, 11%) 50%, hsl(43, 96%, 56%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(224, 12%, 10%) 0%, hsl(222, 20%, 12%) 100%);
     
     --card: 224 12% 10%;
     --card-foreground: 0 0% 95%;
@@ -98,14 +98,14 @@
 
     --primary-foreground: 224 12% 8%;
 
-    --secondary: 39 96% 75%;
-    --secondary-foreground: 224 12% 8%;
+    --secondary: 222 47% 20%;
+    --secondary-foreground: 43 96% 85%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 220 15% 65%;
+    --muted: 222 30% 15%;
+    --muted-foreground: 43 30% 65%;
 
-    --accent: 39 85% 60%;
-    --accent-foreground: 224 12% 8%;
+    --accent: 43 85% 60%;
+    --accent-foreground: 222 47% 11%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;

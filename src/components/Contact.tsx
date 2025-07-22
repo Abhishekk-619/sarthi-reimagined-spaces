@@ -55,7 +55,7 @@ const Contact = () => {
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
             Get in{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               Touch

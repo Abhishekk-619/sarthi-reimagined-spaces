@@ -76,7 +76,7 @@ const AIAssistant = () => {
             <Sparkles className="h-4 w-4" />
             INTRODUCING MAHARASHTRA'S FIRST
           </Badge>
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold mb-6">
             AI Assistant for{" "}
             <span className="bg-gradient-primary bg-clip-text text-transparent">
               Building Rules

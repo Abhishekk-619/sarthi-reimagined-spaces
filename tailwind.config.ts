@@ -18,7 +18,8 @@ export default {
 			}
 		},
 		fontFamily: {
-			sans: ['Inter', 'system-ui', 'sans-serif'],
+			sans: ['Manrope Variable', 'system-ui', 'sans-serif'],
+			playfair: ['Playfair Display Variable', 'serif'],
 		},
 		extend: {
 			colors: {
