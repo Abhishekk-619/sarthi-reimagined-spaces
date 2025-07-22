@@ -169,31 +169,6 @@ const AIAssistant = () => {
           </div>
         </div>
 
-        {/* Use Cases */}
-        <div className="bg-muted/30 rounded-3xl p-8 md:p-12">
-          <h3 className="text-3xl font-bold text-center mb-8">
-            Why It Matters For{" "}
-            <span className="bg-gradient-primary bg-clip-text text-transparent">You</span>
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {useCases.map((useCase, index) => {
-              const IconComponent = useCase.icon;
-              return (
-                <Card key={index} className="text-center bg-background hover:shadow-card transition-all duration-300">
-                  <CardHeader className="pb-4">
-                    <div className="mx-auto w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center mb-3">
-                      <IconComponent className="h-6 w-6 text-white" />
-                    </div>
-                    <CardTitle className="text-lg">{useCase.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">{useCase.benefit}</p>
-                  </CardContent>
-                </Card>
-              );
-            })}
-          </div>
-        </div>
       </div>
     </section>
   );

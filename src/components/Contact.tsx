@@ -178,22 +178,6 @@ const Contact = () => {
               );
             })}
 
-            {/* UDCPR Assistant CTA */}
-            <Card className="bg-gradient-accent text-accent-foreground">
-              <CardContent className="p-6 text-center">
-                <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MessageCircle className="h-8 w-8 text-primary" />
-                </div>
-                <h3 className="text-xl font-bold mb-2">Try UDCPR Saathi</h3>
-                <p className="mb-4">Get instant answers to your building regulation questions</p>
-                <Button 
-                  variant="outline"
-                  className="w-full border-accent-foreground text-accent-foreground hover:bg-accent-foreground hover:text-accent"
-                >
-                  Chat Now - Free
-                </Button>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </div>

@@ -38,7 +38,7 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-b from-background to-muted/30 border-t border-border">
       <div className="container mx-auto px-4 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
@@ -121,22 +121,6 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Resources */}
-          <div>
-            <h3 className="font-semibold text-lg mb-6">Resources</h3>
-            <ul className="space-y-3">
-              {footerLinks.resources.map((link, index) => (
-                <li key={index}>
-                  <a 
-                    href="#" 
-                    className="text-muted-foreground hover:text-primary transition-colors duration-200"
-                  >
-                    {link}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
         </div>
 
         {/* Bottom Section */}
@@ -144,11 +128,6 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="text-muted-foreground text-sm">
               © 2024 Sarthi Reality. All rights reserved. Powered by AI.
-            </div>
-            <div className="flex items-center gap-6 text-sm text-muted-foreground">
-              <a href="#" className="hover:text-primary transition-colors">Privacy Policy</a>
-              <a href="#" className="hover:text-primary transition-colors">Terms of Service</a>
-              <a href="#" className="hover:text-primary transition-colors">Cookie Policy</a>
             </div>
           </div>
         </div>
