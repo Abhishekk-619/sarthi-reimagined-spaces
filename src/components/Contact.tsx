@@ -70,7 +70,7 @@ const Contact = () => {
         <div className="grid grid-cols-1 gap-12">
           {/* Contact Form */}
           <div className="w-full">
-            <Card className="bg-gradient-card border-border/50 hover:shadow-luxury transition-all duration-300">
+            <Card className="bg-gradient-card border-2 border-primary/30 hover:shadow-luxury transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-2xl flex items-center gap-2">
                   <MessageCircle className="h-6 w-6 text-primary" />
@@ -138,11 +138,11 @@ const Contact = () => {
               return (
                 <Card 
                   key={info.title}
-                  className="hover:shadow-card transition-all duration-300 bg-gradient-card border-border/50"
+                  className="hover:shadow-card transition-all duration-300 bg-gradient-card border-2 border-primary/30 hover:border-primary/60"
                 >
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
+                      <div className="w-12 h-12 border-2 border-primary rounded-xl flex items-center justify-center flex-shrink-0">
                         <IconComponent className="h-6 w-6 text-primary" />
                       </div>
                       <div className="flex-1">

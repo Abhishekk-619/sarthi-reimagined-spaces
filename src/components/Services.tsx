@@ -88,11 +88,11 @@ const Services = () => {
             return (
               <Card 
                 key={service.title}
-                className="group hover:shadow-luxury transition-all duration-300 hover:-translate-y-2 bg-gradient-card border-border/50 hover:border-primary/30"
+                className="group hover:shadow-luxury transition-all duration-300 hover:-translate-y-2 bg-gradient-card border-2 border-primary/30 hover:border-primary/60"
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardHeader className="text-center pb-4">
-                  <div className="mb-4 mx-auto w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                  <div className="mb-4 mx-auto w-16 h-16 border-2 border-primary rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                     <IconComponent className="h-8 w-8 text-primary" />
                   </div>
                   <CardTitle className="text-xl mb-2 group-hover:text-primary transition-colors">
