@@ -58,7 +58,7 @@ const AIAssistant = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16 text-center lg:text-left">
           {/* Left Content */}
           <div>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">

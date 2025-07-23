@@ -117,32 +117,6 @@ const Services = () => {
           })}
         </div>
 
-        {/* CTA Section */}
-        <div className="text-center bg-gradient-primary rounded-3xl p-8 md:p-12 text-white">
-          <h3 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to Transform Your Real Estate Journey?
-          </h3>
-          <p className="text-lg mb-8 opacity-90 max-w-2xl mx-auto">
-            Let our AI-powered solutions and expert team guide you through every step 
-            of your property investment and development process.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button 
-              size="lg" 
-              variant="secondary"
-              className="bg-white text-primary hover:bg-gray-100 transition-colors px-8 py-4 text-lg"
-            >
-              Get Started Today
-            </Button>
-            <Button 
-              size="lg" 
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-primary transition-all duration-300 px-8 py-4 text-lg"
-            >
-              Schedule Consultation
-            </Button>
-          </div>
-        </div>
       </div>
     </section>
   );
