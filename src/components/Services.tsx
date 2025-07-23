@@ -92,8 +92,8 @@ const Services = () => {
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardHeader className="text-center pb-4">
-                  <div className="mb-4 mx-auto w-16 h-16 bg-gradient-primary rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                    <IconComponent className="h-8 w-8 text-white" />
+                  <div className="mb-4 mx-auto w-16 h-16 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <IconComponent className="h-8 w-8 text-primary" />
                   </div>
                   <CardTitle className="text-xl mb-2 group-hover:text-primary transition-colors">
                     {service.title}
@@ -111,13 +111,6 @@ const Services = () => {
                       </div>
                     ))}
                   </div>
-                  <Button 
-                    variant="ghost" 
-                    className="group/btn text-primary hover:text-primary-dark hover:bg-primary/10 transition-all duration-200"
-                  >
-                    Learn More
-                    <ArrowRight className="h-4 w-4 ml-2 group-hover/btn:translate-x-1 transition-transform" />
-                  </Button>
                 </CardContent>
               </Card>
             );

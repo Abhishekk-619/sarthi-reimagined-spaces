@@ -53,7 +53,7 @@ const AIAssistant = () => {
               Building Rules
             </span>
           </h2>
-          <div className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent">
+          <div className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-primary bg-clip-text text-transparent text-center">
             YOUR UDCPR SAATHI!
           </div>
         </div>
@@ -73,8 +73,8 @@ const AIAssistant = () => {
               {features.map(feature => {
               const IconComponent = feature.icon;
               return <div key={feature.title} className="flex items-start gap-3">
-                    <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                      <IconComponent className="h-5 w-5 text-white" />
+                    <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
+                      <IconComponent className="h-5 w-5 text-primary" />
                     </div>
                     <div>
                       <h4 className="font-semibold mb-1">{feature.title}</h4>

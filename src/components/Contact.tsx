@@ -67,9 +67,9 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+        <div className="grid grid-cols-1 gap-12">
           {/* Contact Form */}
-          <div className="lg:col-span-2">
+          <div className="w-full">
             <Card className="bg-gradient-card border-border/50 hover:shadow-luxury transition-all duration-300">
               <CardHeader>
                 <CardTitle className="text-2xl flex items-center gap-2">
@@ -132,23 +132,7 @@ const Contact = () => {
           </div>
 
           {/* Contact Information */}
-          <div className="space-y-6">
-            {/* Quick Actions */}
-            <Card className="bg-gradient-primary text-white">
-              <CardContent className="p-6 text-center">
-                <Calendar className="h-12 w-12 mx-auto mb-4" />
-                <h3 className="text-xl font-bold mb-2">Schedule a Consultation</h3>
-                <p className="mb-4 opacity-90">Book a free 30-minute consultation with our experts</p>
-                <Button 
-                  variant="secondary"
-                  className="w-full bg-white text-primary hover:bg-gray-100"
-                >
-                  Book Now
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Contact Info Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {contactInfo.map((info, index) => {
               const IconComponent = info.icon;
               return (
@@ -158,8 +142,8 @@ const Contact = () => {
                 >
                   <CardContent className="p-6">
                     <div className="flex items-start gap-4">
-                      <div className="w-12 h-12 bg-gradient-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                        <IconComponent className="h-6 w-6 text-white" />
+                      <div className="w-12 h-12 flex items-center justify-center flex-shrink-0">
+                        <IconComponent className="h-6 w-6 text-primary" />
                       </div>
                       <div className="flex-1">
                         <h3 className="font-semibold text-lg mb-2">{info.title}</h3>
@@ -177,7 +161,6 @@ const Contact = () => {
                 </Card>
               );
             })}
-
           </div>
         </div>
       </div>
