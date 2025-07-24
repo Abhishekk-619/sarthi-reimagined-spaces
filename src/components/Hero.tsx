@@ -49,31 +49,7 @@ const Hero = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto animate-fade-in" style={{
-          animationDelay: "0.9s"
-        }}>
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-2">
-                <TrendingUp className="h-8 w-8 text-primary-glow mr-2" />
-                <span className="text-4xl font-bold text-white">85%</span>
-              </div>
-              <p className="text-gray-300">Faster Approvals</p>
-            </div>
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-2">
-                <Shield className="h-8 w-8 text-primary-glow mr-2" />
-                <span className="text-4xl font-bold text-white">100%</span>
-              </div>
-              <p className="text-gray-300">UDCPR Compliant</p>
-            </div>
-            <div className="text-center">
-              <div className="flex items-center justify-center mb-2">
-                <Sparkles className="h-8 w-8 text-accent mr-2" />
-                <span className="text-4xl font-bold text-white">AI</span>
-              </div>
-              <p className="text-gray-300">Powered Solutions</p>
-            </div>
-          </div>
+          
         </div>
       </div>
 
