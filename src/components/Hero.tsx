@@ -4,12 +4,6 @@ import { ArrowRight, Sparkles, TrendingUp, Shield } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 const Hero = () => {
   return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background with overlay */}
-      <div className="absolute inset-0">
-        <img src={heroBackground} alt="Modern real estate skyline" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-gradient-hero opacity-90"></div>
-      </div>
-
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
