@@ -20,7 +20,7 @@ const Hero = () => {
           </Badge>
 
           {/* Main Heading */}
-          <h1 className="font-playfair text-5xl md:text-7xl font-bold mb-6 text-white leading-tight animate-slide-up">
+          <h1 className="font-display text-5xl md:text-7xl font-bold mb-6 text-white leading-tight animate-slide-up">
             Elevating Properties,{" "}
             <span className="bg-gradient-to-r from-primary-glow to-secondary bg-clip-text text-transparent">
               Transforming Lives

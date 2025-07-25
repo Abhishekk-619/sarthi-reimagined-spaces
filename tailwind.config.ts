@@ -18,8 +18,8 @@ export default {
 			}
 		},
 		fontFamily: {
-			sans: ['Inter', 'system-ui', 'sans-serif'],
-			playfair: ['Playfair Display', 'serif'],
+			sans: ['Outfit', 'system-ui', 'sans-serif'],
+			display: ['Space Grotesk', 'sans-serif'],
 		},
 		extend: {
 			colors: {
