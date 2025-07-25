@@ -33,11 +33,20 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12 animate-fade-in" style={{
           animationDelay: "0.6s"
         }}>
-            <Button size="lg" className="bg-gradient-primary hover:shadow-luxury transition-all duration-300 text-lg px-8 py-4 gap-3 group">
+            <Button 
+              size="lg" 
+              className="bg-gradient-primary hover:shadow-luxury transition-all duration-300 text-lg px-8 py-4 gap-3 group"
+              onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Explore Services
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button variant="outline" size="lg" className="text-white border-white hover:bg-white hover:text-foreground transition-all duration-300 text-lg px-8 py-4">
+            <Button 
+              variant="outline" 
+              size="lg" 
+              className="text-white border-white hover:bg-white hover:text-foreground transition-all duration-300 text-lg px-8 py-4"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               Contact Us
             </Button>
           </div>

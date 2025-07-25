@@ -58,9 +58,8 @@ const AIAssistant = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16 text-center lg:text-left">
-          {/* Left Content */}
-          <div>
+        <div className="flex justify-center mb-16">
+          <div className="max-w-4xl text-center">
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               A free, AI-powered chatbot designed to guide you through building laws, 
               development rules and property permissions based on the Unified Development 
@@ -72,12 +71,12 @@ const AIAssistant = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               {features.map(feature => {
               const IconComponent = feature.icon;
-              return <div key={feature.title} className="flex items-start gap-3">
-                    <div className="w-10 h-10 flex items-center justify-center flex-shrink-0">
-                      <IconComponent className="h-5 w-5 text-primary" />
+              return <div key={feature.title} className="flex flex-col items-center text-center gap-3">
+                    <div className="w-12 h-12 flex items-center justify-center flex-shrink-0 bg-primary/10 rounded-full">
+                      <IconComponent className="h-6 w-6 text-primary" />
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-1">{feature.title}</h4>
+                      <h4 className="font-semibold mb-2">{feature.title}</h4>
                       <p className="text-sm text-muted-foreground">{feature.description}</p>
                     </div>
                   </div>;
@@ -88,23 +87,31 @@ const AIAssistant = () => {
             <div className="mb-8">
               <h4 className="font-semibold mb-4 text-lg">Common Questions:</h4>
               <div className="space-y-2">
-                {commonQuestions.map((question, index) => <div key={index} className="flex items-center gap-2 text-sm text-muted-foreground">
+                {commonQuestions.map((question, index) => <div key={index} className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                     <CheckCircle className="h-4 w-4 text-primary flex-shrink-0" />
                     {question}
                   </div>)}
               </div>
             </div>
 
-            <Button size="lg" className="bg-gradient-primary hover:shadow-luxury transition-all duration-300 gap-3 group">
-              <Bot className="h-5 w-5" />
-              Chat with UDCPR Saathi
-              <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
-          </div>
-
-          {/* Right Content - AI Visualization */}
-          <div className="relative">
-            
+            <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+              <Button 
+                size="lg" 
+                className="bg-gradient-primary hover:shadow-luxury transition-all duration-300 gap-3 group"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                <Bot className="h-5 w-5" />
+                Chat with UDCPR Saathi
+                <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Schedule Consultation
+              </Button>
+            </div>
           </div>
         </div>
 

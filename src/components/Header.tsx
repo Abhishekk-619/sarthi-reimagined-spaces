@@ -40,11 +40,19 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="outline" size="sm" className="gap-2">
+            <Button 
+              variant="outline" 
+              size="sm" 
+              className="gap-2"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Phone className="h-4 w-4" />
               Call Now
             </Button>
-            <Button className="gap-2 bg-gradient-primary hover:shadow-glow transition-all duration-300">
+            <Button 
+              className="gap-2 bg-gradient-primary hover:shadow-glow transition-all duration-300"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            >
               <Calendar className="h-4 w-4" />
               Schedule Consultation
             </Button>
@@ -78,11 +86,25 @@ const Header = () => {
                 </a>
               ))}
               <div className="flex flex-col space-y-2 pt-4 border-t border-border">
-                <Button variant="outline" size="sm" className="gap-2">
+                <Button 
+                  variant="outline" 
+                  size="sm" 
+                  className="gap-2"
+                  onClick={() => {
+                    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                    setIsMenuOpen(false);
+                  }}
+                >
                   <Phone className="h-4 w-4" />
                   Call Now
                 </Button>
-                <Button className="gap-2 bg-gradient-primary">
+                <Button 
+                  className="gap-2 bg-gradient-primary"
+                  onClick={() => {
+                    document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                    setIsMenuOpen(false);
+                  }}
+                >
                   <Calendar className="h-4 w-4" />
                   Schedule Consultation
                 </Button>
