@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import About from "@/components/About";
 import AIAssistant from "@/components/AIAssistant";
 import ChatbotPopup from "@/components/ChatbotPopup";
 import Contact from "@/components/Contact";
@@ -21,6 +22,7 @@ const Index = () => {
         <Header />
         <Hero />
         <Services />
+        <About />
         <AIAssistant />
         <Contact />
         <Footer />
