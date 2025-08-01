@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
 import AIAssistant from "@/components/AIAssistant";
-
+import ChatbotPopup from "@/components/ChatbotPopup";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import heroBackground from "@/assets/hero-background.jpg";
@@ -22,10 +22,12 @@ const Index = () => {
         <Hero />
         <Services />
         <AIAssistant />
-        
         <Contact />
         <Footer />
       </div>
+      
+      {/* Chatbot Popup */}
+      <ChatbotPopup />
     </div>
   );
 };

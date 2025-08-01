@@ -6,11 +6,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { name: "Home", href: "#home" },
-    { name: "Services", href: "#services" },
-    { name: "About", href: "#about" },
-    { name: "UDCPR Assistant", href: "#udcpr" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "#home", type: "scroll" },
+    { name: "Services", href: "#services", type: "scroll" },
+    { name: "About", href: "/about", type: "link" },
+    { name: "UDCPR Assistant", href: "#udcpr", type: "scroll" },
+    { name: "Contact", href: "#contact", type: "scroll" },
   ];
 
   return (
@@ -28,13 +28,23 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
-              >
-                {item.name}
-              </a>
+              item.type === "link" ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
+                >
+                  {item.name}
+                </a>
+              )
             ))}
           </nav>
 
