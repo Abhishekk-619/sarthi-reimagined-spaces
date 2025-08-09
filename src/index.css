@@ -10,26 +10,26 @@
     --background: 0 0% 100%;
     --foreground: 260 15% 15%;
     
-    /* Sustainable Green Brand Colors - Environmental & Development */
-    --primary: 140 80% 45%;   /* Forest green */
-    --primary-glow: 145 70% 65%;
-    --primary-dark: 140 90% 35%;
+    /* Super.AI Inspired Purple/Violet Brand Colors */
+    --primary: 266 83% 58%;   /* Vibrant purple */
+    --primary-glow: 276 83% 68%;
+    --primary-dark: 256 83% 48%;
     
     /* Accent colors */
-    --secondary: 30 15% 20%; /* Earth brown */
-    --accent: 110 60% 50%;    /* Fresh lime green */
+    --secondary: 240 20% 20%; /* Dark blue-gray */
+    --accent: 286 83% 78%;    /* Bright violet */
     --muted: 140 20% 96%;
     
-    /* Sustainable gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(140, 80%, 45%), hsl(145, 70%, 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(30, 15%, 20%) 0%, hsl(140, 25%, 25%) 50%, hsl(140, 80%, 45%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(140, 15%, 98%) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(140, 80%, 45%), hsl(110, 60%, 50%));
+    /* Super.AI Tech Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(266, 83%, 58%), hsl(276, 83%, 68%));
+    --gradient-hero: linear-gradient(135deg, hsl(220, 40%, 12%) 0%, hsl(266, 50%, 20%) 50%, hsl(276, 83%, 28%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(0, 0%, 100%) 0%, hsl(276, 15%, 98%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(276, 83%, 68%), hsl(286, 83%, 78%));
     
-    /* Green shadows */
-    --shadow-luxury: 0 25px 50px -12px hsl(140 80% 45% / 0.25);
-    --shadow-card: 0 10px 30px -5px hsl(140 80% 45% / 0.1);
-    --shadow-glow: 0 0 40px hsl(145 70% 65% / 0.3);
+    /* Purple/Violet shadows */
+    --shadow-luxury: 0 25px 50px -12px hsl(266 83% 58% / 0.25);
+    --shadow-card: 0 10px 30px -5px hsl(266 83% 58% / 0.1);
+    --shadow-glow: 0 0 40px hsl(276 83% 68% / 0.3);
     
     /* Smooth transitions */
     --transition-luxury: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -81,14 +81,14 @@
     --background: 260 15% 8%;
     --foreground: 0 0% 95%;
     
-    /* Enhanced green primary for dark mode */
-    --primary: 140 85% 50%;
-    --primary-glow: 145 75% 70%;
-    --primary-dark: 140 90% 40%;
+    /* Enhanced purple/violet primary for dark mode */
+    --primary: 276 83% 68%;
+    --primary-glow: 286 83% 78%;
+    --primary-dark: 266 83% 58%;
     
-    /* Dark theme green gradients */
-    --gradient-hero: linear-gradient(135deg, hsl(140, 15%, 8%) 0%, hsl(140, 25%, 15%) 50%, hsl(140, 80%, 45%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(140, 15%, 10%) 0%, hsl(140, 20%, 12%) 100%);
+    /* Dark theme purple gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(220, 40%, 8%) 0%, hsl(266, 40%, 15%) 50%, hsl(276, 83%, 28%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(240, 15%, 10%) 0%, hsl(266, 20%, 12%) 100%);
     
     --card: 224 12% 10%;
     --card-foreground: 0 0% 95%;
@@ -98,14 +98,14 @@
 
     --primary-foreground: 224 12% 8%;
 
-    --secondary: 30 25% 25%;
-    --secondary-foreground: 140 85% 85%;
+    --secondary: 240 25% 25%;
+    --secondary-foreground: 276 83% 85%;
 
-    --muted: 140 20% 15%;
-    --muted-foreground: 140 30% 65%;
+    --muted: 240 20% 15%;
+    --muted-foreground: 240 30% 65%;
 
-    --accent: 110 75% 60%;
-    --accent-foreground: 140 25% 15%;
+    --accent: 286 83% 78%;
+    --accent-foreground: 240 25% 15%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
